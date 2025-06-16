@@ -1,77 +1,86 @@
-# 🐞 Bug/Task Tracker Web App
+<h1 align="center">🐞 Bug/Task Tracker</h1>
 
-A full-featured bug and task tracking web application built using **Next.js**. The app is designed to streamline task management and bug tracking workflows with user roles, authentication, time tracking, and clean dashboards.
-
----
-
-## 🚀 Demo
-
-🔗 Live Demo: [Visit the deployed app](https://glittery-croquembouche-ba7270.netlify.app/)
-
-🎥 Video Walkthrough: [Watch on YouTube](https://drive.google.com/file/d/18taQRUY6-itCXFzYKqHC1i_dLLu6Ksdy/view?usp=drivesdk)
+<p align="center">
+  <img src="https://img.shields.io/badge/Next.js-Frontend-informational?style=flat&logo=next.js&logoColor=white&color=000000" alt="Next.js" />
+  <img src="https://img.shields.io/badge/Zustand-State--Management-blueviolet?style=flat&logo=react&logoColor=white" alt="Zustand" />
+  <img src="https://img.shields.io/badge/Styled--Components-CSS--in--JS-ff69b4?style=flat&logo=styled-components&logoColor=white" alt="Styled Components" />
+  <img src="https://img.shields.io/badge/Deployed-Netlify-brightgreen?style=flat&logo=netlify&logoColor=white" alt="Netlify" />
+</p>
 
 ---
 
-## 🔐 Authentication & Roles
-
-- 🔑 Simple login system with mock authentication (hardcoded users).
-- 👤 Roles:
-  - **Developer:** Create, edit, close tasks and bugs.
-  - **Manager:** View all tasks, approve/reject bug closures.
+### 📸 **Preview**
+<p align="center">
+  <img src="https://your-screenshot-url.com/dashboard.png" width="90%" alt="App Screenshot" />
+</p>
 
 ---
 
-## 🖥️ Features
+## ✨ Live Demo & Walkthrough
 
-### ✅ Dashboard
-- Developer-specific dashboard showing assigned tasks/bugs.
-- Manager dashboard for viewing all open/closed/pending bugs.
-- 📈 Visual trend line for daily concurrent tasks.
-
-### 📝 Task & Bug Management
-- Create tasks/bugs with fields like:
-  - Title, Description, Priority, Status, Assignee, Dates, etc.
-- Filter/sort by Priority, Status, etc.
-- Developer can request bug closure.
-- Manager can approve/reject bug closure.
-
-### ⏱️ Time Tracker
-- Log time against each task.
-- View total hours spent.
-- Managers can view time logs of all developers.
+🌍 **Live App:** [Click here to try it out!](https://your-netlify-link.com)  
+🎥 **Video Demo:** [Watch full walkthrough](https://your-demo-video-link.com)
 
 ---
 
-## 🎨 UI/UX
+## 🔑 Features at a Glance
 
-- Fully responsive design.
-- Clean, intuitive layout with a mobile-first approach.
-- Built with modern CSS and reusable components.
+| Role       | Capabilities                                                                 |
+|------------|------------------------------------------------------------------------------|
+| 👨‍💻 **Developer** | - Create/Edit/Delete Tasks <br> - Track Time <br> - Request Bug Closure       |
+| 🧑‍💼 **Manager**    | - Approve/Reject Closures <br> - View Time Logs <br> - View All Bugs/Tasks    |
 
 ---
 
 ## 🛠️ Tech Stack
 
-| Tech        | Description                    |
-|-------------|--------------------------------|
-| Next.js     | React framework (frontend)     |
-| React       | UI library                     |
-| Zustand     | Lightweight state management   |
-| Styled-components | CSS-in-JS styling       |
+| Technology       | Description                          |
+|------------------|--------------------------------------|
+| ⚛️ Next.js       | React-based frontend framework        |
+| 🧠 Zustand        | Lightweight state management         |
+| 🎨 Styled-Components | CSS-in-JS styling library         |
+| 🚀 Netlify        | Deployment platform                   |
 
 ---
 
-## 📁 Installation & Setup
+## 📋 Functional Highlights
+
+- 🔐 **Mock Authentication**: Hardcoded credentials for different roles.
+- 📊 **Dashboards**:
+  - Developers see tasks they’re assigned.
+  - Managers view all bugs with filters.
+- 📝 **Bug Lifecycle**:
+  - Developers submit bugs → Managers approve/reopen them.
+- ⏱️ **Time Tracker**:
+  - Log hours for each task
+  - View time summaries
+
+---
+
+## 🎯 Filters & Sorting Capabilities
+
+✔️ Filter by:
+- Priority (Low, Medium, High)
+- Status (Open, Closed, Pending Approval)
+- Assignee  
+✔️ Sort by:
+- Date Created
+- Priority
+- Estimated Time
+
+---
+
+## 💻 How to Run Locally
 
 ```bash
 # Clone the repository
 git clone https://github.com/your-username/bug-task-tracker.git
 
-# Navigate to the project directory
+# Navigate into the project
 cd bug-task-tracker
 
 # Install dependencies
 npm install
 
-# Run the development server
+# Start the development server
 npm run dev
