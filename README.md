@@ -9,17 +9,12 @@
 
 ---
 
-### 📸 **Preview**
-<p align="center">
-  <img src="https://your-screenshot-url.com/dashboard.png" width="90%" alt="App Screenshot" />
-</p>
-
 ---
 
 ## ✨ Live Demo & Walkthrough
 
-🌍 **Live App:** [Click here to try it out!](https://your-netlify-link.com)  
-🎥 **Video Demo:** [Watch full walkthrough](https://your-demo-video-link.com)
+🌍 **Live App:** [Click here to try it out!]([https://your-netlify-link.com](https://glittery-croquembouche-ba7270.netlify.app/))  
+🎥 **Video Demo:** [Watch full walkthrough]([https://your-demo-video-link.com](https://github.com/iamaditya442/Task-Tracker))
 
 ---
 
